@@ -1,0 +1,20 @@
+.earth{
+    height:300px;
+    width:300px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-image: url('6290f445ca1b78454746f1ddb5dc6fa3.jpg');
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px inset,0 0 20px 2px #000;
+    animation: naza 15s linear alternate infinite;
+}
+@keyframes naza{
+    100%{
+        background-position: 100%;
+    }
+}
